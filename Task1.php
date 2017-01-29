@@ -43,7 +43,7 @@
 					echo '<p>' . $data[$i] . '</p>';
 				}
 				function viewHref($hrefPage){
-					echo ' <a href="Task1.php?=' . $hrefPage .'">' . $hrefPage . '</a> ';
+					echo ' <a href="Task1.php?page=' . $hrefPage .'">' . $hrefPage . '</a> ';
 				}
 					echo '<p>';
 					$prev = $currentPage - 1; $next = $currentPage + 1;
